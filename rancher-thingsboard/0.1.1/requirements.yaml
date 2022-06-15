@@ -1,0 +1,14 @@
+dependencies:
+  - name: postgresql-ha
+    version: 8.5.2
+    repository: https://charts.bitnami.com/bitnami
+  - name: cassandra
+    version: 9.1.8
+    repository: https://charts.bitnami.com/bitnami
+    condition: cassandra.enabled
+  - name: kafka
+    version: 15.3.4
+    repository: https://charts.bitnami.com/bitnami
+  - name: redis
+    version: 16.4.5
+    repository: https://charts.bitnami.com/bitnami
